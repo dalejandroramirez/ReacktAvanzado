@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
-import  Ejemplo from './components/Ejemplo';
+
+import GeneradorNombres from './components/GeneradorNombres';
+
 
 function App() {
+
+  const names = ['alejo','lalo','landa'];
+  
   return (
-    <div className="App">
-      <Ejemplo/>
-    </div>
+    <GeneradorNombres names={names}/>
   );
+  
 }
 
 export default App;

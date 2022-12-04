@@ -32,8 +32,6 @@ const MiComponente = () => {
     [],
   );
 
-  
-
   return(
     <h1>
       Mi Componente
